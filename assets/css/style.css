@@ -1,0 +1,128 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+section{
+    margin-top: 14px;
+}
+.masterlayer {
+    background: url("../images/webpage.jpg") no-repeat center top;
+    text-align: center;
+    /*background-attachment: fixed;*/
+    /*background-position: center center;*/
+    min-height: 700px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.blueb{
+    background: rgba(52,152,219 ,0.9);
+    text-align: center;
+}
+.text{
+     margin-top: 40px !important;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.1rem;
+    font-style: italic;
+}
+.text1{
+
+    color: #fff;
+    font-family: 'Acme', sans-serif;
+    font-size: 4.1rem;
+    /*font-style: bold;*/
+    
+}
+.dp{
+    margin-top: -5% !important;
+    border-radius: 50%;
+    border-color: #fff;
+    border-block-end-color: #fff;
+    width:210px;
+    height: 210px;
+    overflow: hidden;
+    border:10px solid #fff;
+}
+.logo{
+    border-radius: 5px;
+    width:50px;
+    height:50px;
+    margin-top:35px;
+}
+.nav{
+    margin-top: 60px;
+    margin-right: 100px;
+    
+}
+.navele{
+    margin-left: 15px;
+    color: #fff;
+    font-family: 'Economica', sans-serif;
+    font-size: 19px;
+  
+}
+.direct{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    display: block;
+}
+.direct span{
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+}
+.direct span:hover{
+    background-color: #383838 !important;
+}
+.direct span.next{
+    background: #222 url("../images/nav-next.png") no-repeat 5px 5px;
+}
+.direct span.prev{
+    background: #222 url("../images/nav-prev.png") no-repeat 5px 5px;
+}
+
+/*@media only screen and (max-width: 1024px) {
+
+    .dp{
+        margin-top: 75% !important;
+        border-radius: 50%;
+        border-color: #fff;
+        border-block-end-color: #fff;
+        width:410px;
+        height: 410px;
+        overflow: hidden;
+        border:20px solid #fff;
+    }
+    .text{
+        margin-top: 50px !important;
+        color: #fff;
+        font-family: 'Poiret One', cursive;
+        font-size: 3.1rem;
+        font-style: italic;
+    }
+    .text1{
+
+        color: #fff;
+        font-family: 'Acme', sans-serif;
+        font-size: 5.1rem;
+       
+        
+    }
+    .logo{
+        border-radius: 10px;
+        width:80px;
+        height:80px;
+        margin-top:100px;
+    }
+}*/
+
