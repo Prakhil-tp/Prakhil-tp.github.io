@@ -1,6 +1,7 @@
 ::-webkit-scrollbar { 
     display: none; 
 }
+::-moz-scrollbars {display:none;}
 body{ overflow-x:hidden; }
 section{
     margin-top: 14px;
