@@ -155,7 +155,7 @@ p{
      }
      .nav{
          margin-top: 45px;
-         margin-right: 35px;
+         margin-right: 10px;
          
      }
      .navele{
@@ -166,7 +166,7 @@ p{
        
      }
      .blueb.blueb2{
-        margin-top: -78px !important;
+        margin-top: -136.5px  !important;
     }
     .blueb.firstb{
         height: 153px;
@@ -196,9 +196,12 @@ p{
        line-height: 1.0em !important;
        
    }
+   .mobiadjest{
+    margin-right: 12px !important;
+    }
    .masterlayer {
-    min-height:  525px;
-}
+    min-height:  582px;
+    }
    
  }
 /*@media only screen and (max-width: 1024px) {
