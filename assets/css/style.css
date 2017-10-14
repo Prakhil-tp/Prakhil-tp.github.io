@@ -202,7 +202,7 @@ p{
      }
      .nav{
          margin-top: 45px;
-         margin-right: 25px;   
+         margin-right: 20px;   
      }
      .navele{
          margin-left: 10px;
@@ -232,7 +232,8 @@ p{
     min-height:  582px;
     }
     .direct{    
-        bottom:40px;
+        bottom:30px;
+        right: 20px;
     }
     .whitespace{    
         height:50px;
