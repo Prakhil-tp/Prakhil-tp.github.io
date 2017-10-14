@@ -165,10 +165,10 @@ p{
     position:absolute; 
     z-index:-1;
     box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:50%;
+    top:0%;
     bottom:0;
-    left:10px;
-    right:10px;
+    left:0px;
+    right:0px;
     border-radius:100px / 10px;
 }
 .thirdHead{
@@ -267,6 +267,9 @@ p{
         font-weight:500;
         font-size: 17px;
         text-align: justify;
+    }
+    .aboutMeSection:after {    
+        border-radius:0px;
     }
  }
 /*@media only screen and (max-width: 1024px) {
