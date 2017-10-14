@@ -28,10 +28,12 @@ p{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
 }
 .blueb{
     background: rgba(52,152,219 ,0.9);
     text-align: center;
+    
 }
 .text{
      margin-top: 40px !important;
@@ -114,6 +116,7 @@ p{
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     color:  rgba(56, 137, 191, 0.90);
+    margin-bottom: 5px;
 }
 .line {
     margin:0 0 1em;
@@ -146,16 +149,41 @@ p{
 .image1{    
     border-radius: 5%;
 }
-.image2{    
-    border-radius: 5%;
-    border:2px solid #C6C6C6;
-}
+
 .subtitle{    
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-weight: bold;
    color:#18AA18;
    font-size: 20px;
 }
+.aboutMeSection {    
+    position: relative;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.aboutMeSection:before, .aboutMeSection:after {    
+    content:"";
+    position:absolute; 
+    z-index:-1;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius:100px / 10px;
+}
+.thirdHead{
+    font-family:inherit;
+    font-weight: bold;
+    font-size: 15px;
+    color:#222;
+
+}
+ /* .aboutMeSection:after
+{
+    right:10px; 
+    left:auto; 
+    transform:skew(8deg) rotate(3deg);
+}  */
 
 @media only screen and (max-width: 1080px) {
 
