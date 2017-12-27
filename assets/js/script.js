@@ -40,5 +40,5 @@ $(function(){
            pagePositon = $cur.data('pos');
        }                   
     }
-    
+ 
 });
