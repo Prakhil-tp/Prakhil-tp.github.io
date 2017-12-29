@@ -65,7 +65,7 @@ $(function(){
                 setTimeout(function() {
                      $('.aboutme-btn.two').transition('fade up','1s');
                 }, 1000);
-                
+
               }, 8000);
             
            
@@ -135,14 +135,9 @@ $(function(){
             count=8;
         }
 
-
-        //about me section -transition
-
-
-
-
      });
 
+ 
 });
 
 $(document).ready(function(){
