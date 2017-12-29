@@ -13,6 +13,29 @@ p{
     color:#333;
     font-size: 17px;
 }
+.aboutme-btn
+{
+
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    background-color: rgb(102, 119, 136);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 25px 7px;
+    border-radius: 999px;
+    cursor: pointer;
+    display: inline-block;
+    text-shadow: 0 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    zoom: 1;
+    text-align: center;
+    word-break: break-word;
+    border: 0;
+    margin:20px 0 0 20px;
+}
+.aboutme-btn:hover{
+    color:#fff!important;
+}
 .masterlayer {
     background:url("../images/webpage.jpg") no-repeat center top;
     overflow: hidden;

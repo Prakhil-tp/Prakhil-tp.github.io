@@ -44,7 +44,7 @@
         <div class="ui grid aboutMeSection">
             <div class="row whitespace" style="box-shadow: 0 -5px 10px -5px #333;"></div>
             <div class="row" >
-                <div class="sixteen wide column headingText">
+                <div class="sixteen wide column headingText" id="aboutme-text">
                     <h1 class="line">About me</h1>
                 </div>
                 
@@ -52,12 +52,12 @@
             <div class="large screen only row" >
                
                 <div class="three wide column"></div>
-                <div class="four wide colunm" >
+                <div class="four wide colunm" id="aboutme-large-img">
                     
-                    <div class="collegeimg"></div>
+                    <div class="collegeimg" ></div>
                     
                 </div>
-                <div class="seven wide column about-para">
+                <div class="seven wide column about-para" id="aboutme-large-para">
                     <p class="para-subhead">computer programmer and full-stack web developer</p>
                     <p>
                         My name is Prakhil, I'm a tireless seeker of knowledge,
@@ -70,16 +70,19 @@
                         these years in tech and study were filled with a rapid succession of ups and downs,
                         and plenty of hard-won lessons.
                     </p>
-                    <p style="height:50px;"></p>
+                    <p style="height:50px;">
+                        <a class="aboutme-btn one" href="resume2017.pdf" style="margin-left:80px;">Resume</a>
+                        <a class="aboutme-btn two" href="#">Contact</a>
+                    </p>
                 </div>
                 <div class="two wide column"></div>
             </div>
+            <!--mobile view about me -->
             <div class="mobile only row">
-                <div class="college-pic">
+                <div class="college-pic" id="aboutme-mob-img">
                         <div class="collegeimg" style="height:160px;width:310px;"></div>
-                    <!-- <img src="assets/images/college.jpg" height="160px" width="310px" class="image1"/> -->
                 </div>
-                <div class="about-para">
+                <div class="about-para" id="aboutme-mob-para">
                     <p class="para-subhead">Computer programmer and Full-stack web developer</p>
                     <p class="para-content">
                         my name is Prakhil, I'm a tireless seeker of knowledge,
@@ -102,17 +105,17 @@
         <div class="ui grid">
             <div class="row whitespace"></div>
             <div class="row" >
-                    <div class="sixteen wide column headingText">
+                    <div class="sixteen wide column headingText" id="done-text">
                         <h1 class="line">Here's what I've done so far</h1>
                     </div>        
              </div>
              <!--edufy-->
              <div class="large screen only row" >
                     <div class="three wide column"></div>
-                    <div class="four wide colunm">
+                    <div class="four wide colunm" id='edufy-large-img'>
                          <img src="assets/images/edufy.png" height="250px;" width="250px;" class="image1" />
                     </div>
-                    <div class="seven wide column about-para">
+                    <div class="seven wide column about-para" id='edufy-large-para'>
                          <p class="para-subhead">Edufy</p><p><span class="subtitle">Co-founder & Partner, <i>Founded 2017</i></span><br/>
                         <span class="thirdHead"><strong>Kochi, KL</strong></span></p>
                         
@@ -132,13 +135,13 @@
             </div>
             <!-- mobile view edufy-->
             <div class="mobile only row">
-                <div class="one wide column"></div>
+                <div class="one wide column" id="edufy-mob-img"></div>
                 <div class="fourteen wide column"><img src="assets/images/edufy.png" height="300px;" width="300px;" class="mbimage1" /></div>
                 <div class="one wide column"></div>
             </div>
             <div class="mobile only row">
                 <div class="one wide column"></div>
-                <div class="fourteen wide column mbabout-para">
+                <div class="fourteen wide column mbabout-para" id="edufy-mob-para">
                     <p class="para-subhead">Edufy</p><p><span class="subtitle">Co-founder & Partner, <i>Founded 2017</i></span><br/>
                         <span class="thirdHead"><strong>Kochi, KL</strong></span></p>
                         
@@ -160,7 +163,7 @@
             <div class="row"></div>
             <div class="large screen only row">
                 <div class="three wide column"></div>
-                <div class="seven wide column about-para" style="margin-left:-30px;">
+                <div class="seven wide column about-para" style="margin-left:-30px;" id="calmove-large-para">
                     <p class="para-subhead">Calmove Technologies</p><p><span class="subtitle">Engineering Intern, <i>jun 2017</i></span><br/>
                     <span class="thirdHead"><strong>Trivandrum, KL</strong></span></p>
                     <p>
@@ -175,20 +178,20 @@
                        
                     </p>
                 </div>
-                <div class="four wide colunm" style="margin-left:20px;">
+                <div class="four wide colunm" style="margin-left:20px;" id="calmove-large-img">
                     <img src="assets/images/calmove.png" height="250px;" width="250px;" class="image1" />
                </div>
                <div class="two wide column"></div>
             </div>
             <!-- mobile view calmove-->
             <div class="mobile only row">
-                <div class="one wide column"></div>
+                <div class="one wide column" id="calmove-mob-img"></div>
                 <div class="fourteen wide column"><img src="assets/images/calmove.png" height="300px;" width="300px;" class="mbimage1" /></div>
                 <div class="one wide column"></div>
             </div>
             <div class="mobile only row">
                 <div class="one wide column"></div>
-                <div class="fourteen wide column mbabout-para">
+                <div class="fourteen wide column mbabout-para" id="calmove-mob-para">
                     <p class="para-subhead">Calmove Technologies</p><p><span class="subtitle">Engineering Intern, <i>jun 2017</i></span><br/>
                         <span class="thirdHead"><strong>Trivandrum, KL</strong></span></p>
                         
@@ -210,10 +213,10 @@
             <div class="row"></div>
             <div class="large screen only row" >
                 <div class="three wide column"></div>
-                <div class="four wide colunm">
+                <div class="four wide colunm" id="sih-large-img">
                      <img src="assets/images/sih.png" height="250px;" width="250px;" class="image1" />
                 </div>
-                <div class="seven wide column about-para">
+                <div class="seven wide column about-para" id="sih-large-para">
                      <p class="para-subhead">Smart India Hackathon</p><p><span class="subtitle">Finalist, <i>April 2017</i></span><br/>
                     <span class="thirdHead"><strong>Trivandrum, UP</strong></span></p>
                     
@@ -233,13 +236,13 @@
         </div>
         <!--mobile view sih 2017-->
         <div class="mobile only row">
-            <div class="one wide column"></div>
+            <div class="one wide column" id="sih-mob-img"></div>
             <div class="fourteen wide column"><img src="assets/images/sih.png" height="300px;" width="300px;" class="mbimage1" /></div>
             <div class="one wide column"></div>
         </div>
         <div class="mobile only row">
             <div class="one wide column"></div>
-            <div class="fourteen wide column mbabout-para">
+            <div class="fourteen wide column mbabout-para" id="sih-mob-para">
                 <p class="para-subhead">Smart India Hackathon</p><p><span class="subtitle">Finalist, <i>April 2017</i></span><br/>
                     <span class="thirdHead"><strong>Trivandrum, UP</strong></span></p>
                     
@@ -261,7 +264,7 @@
         <div class="row"></div>
         <div class="large screen only row">
             <div class="three wide column"></div>
-            <div class="seven wide column about-para" style="margin-left:-30px;">
+            <div class="seven wide column about-para" style="margin-left:-30px;" id="techathlon-large-para">
                 <p class="para-subhead">Techathlon</p><p><span class="subtitle">Finalist, <i>Octobar 2016</i></span><br/>
                 <span class="thirdHead"><strong>Trivandrum, KL</strong></span></p>
                 <p>
@@ -276,20 +279,20 @@
                    
                 </p>
             </div>
-            <div class="four wide colunm" style="margin-left:20px;">
+            <div class="four wide colunm" style="margin-left:20px;" id="techathlon-large-img">
                 <img src="assets/images/ict.png" height="250px;" width="250px;" class="image1" />
            </div>
            <div class="two wide column"></div>
         </div>
         <!-- mobile view techathlon -->
         <div class="mobile only row">
-            <div class="one wide column"></div>
+            <div class="one wide column" id="techathlon-mob-img"></div>
             <div class="fourteen wide column"><img src="assets/images/ict.png" height="300px;" width="300px;" class="mbimage1" /></div>
             <div class="one wide column"></div>
         </div>
         <div class="mobile only row">
             <div class="one wide column"></div>
-            <div class="fourteen wide column mbabout-para">
+            <div class="fourteen wide column mbabout-para" id="techathlon-mob-para">
                 <p class="para-subhead">Techathlon</p><p><span class="subtitle">Finalist, <i>Octobar 2016</i></span><br/>
                     <span class="thirdHead"><strong>Trivandrum, KL</strong></span></p>
                     
@@ -322,14 +325,8 @@
         <span class="next"></span>    
     </div>
     <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/semantic.min.js"></script>
     <script src="assets/js/script.js"></script>
-    <!-- <script language="javascript">
-        function autoResizeDiv()
-        {
-            document.getElementById('main').style.height = window.innerHeight+15+'px';
-        }
-        window.onresize = autoResizeDiv;
-        autoResizeDiv();
-    </script> -->
+  
     </body>
 </html>
