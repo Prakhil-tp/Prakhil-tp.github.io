@@ -73,7 +73,7 @@ $(function(){
         }
         //aboutme mobile screen - transition
         if ($(this).scrollTop() > ($('#aboutme-mob-para').offset().top+($('#aboutme-mob-para').outerHeight()/2)-wH) && count==-3){
-            $('#aboutme-mob-img').transition('fade right','1s');
+            $('#aboutme-mob-img').transition('fade up','1s');
             $('#aboutme-mob-para').transition('fade up','2s');
            
             count=-2;
@@ -93,7 +93,7 @@ $(function(){
         }
         //edufy mobile screen - transition
         if ($(this).scrollTop() > ($('#edufy-mob-img').offset().top+($('#edufy-mob-img').outerHeight()/2)-wH) && count==1){
-            $('#edufy-mob-img').transition('fade right','1s');
+            $('#edufy-mob-img').transition('fade up','1s');
             $('#edufy-mob-para').transition('fade up','2s');
            
             count=2;
@@ -106,7 +106,7 @@ $(function(){
         }
         //calmove mobile screen -transition
         if ($(this).scrollTop() > ($('#calmove-mob-img').offset().top+($('#calmove-mob-img').outerHeight()/2)-wH) && count==3){
-            $('#calmove-mob-img').transition('fade left','1s');
+            $('#calmove-mob-img').transition('fade up','1s');
             $('#calmove-mob-para').transition('fade up','2s'); 
             count=4;
         }
@@ -118,7 +118,7 @@ $(function(){
         }
         //sih mobile screen -transition
         if ($(this).scrollTop() > ($('#sih-mob-img').offset().top+($('#sih-mob-img').outerHeight()/2)-wH) && count==5){
-            $('#sih-mob-img').transition('fade left','1s');
+            $('#sih-mob-img').transition('fade up','1s');
             $('#sih-mob-para').transition('fade up','2s'); 
             count=6;
         }
@@ -130,7 +130,7 @@ $(function(){
         }
         //techathlon mobile screen -transition
         if ($(this).scrollTop() > ($('#techathlon-mob-img').offset().top+($('#techathlon-mob-img').outerHeight()/2)-wH) && count==7){
-            $('#techathlon-mob-img').transition('fade left','1s');
+            $('#techathlon-mob-img').transition('fade up','1s');
             $('#techathlon-mob-para').transition('fade up','2s'); 
             count=8;
         }
