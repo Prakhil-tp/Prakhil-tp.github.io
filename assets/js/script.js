@@ -73,7 +73,7 @@ $(function(){
         }
         //aboutme mobile screen - transition
         if ($(this).scrollTop() > ($('#aboutme-mob-para').offset().top+($('#aboutme-mob-para').outerHeight()/2)-wH) && count==-3){
-            $('#aboutme-mob-img').transition('fade up','1s');
+            $('#aboutme-mob-img').transition('fade','2s');
             $('#aboutme-mob-para').transition('fade up','2s');
            
             count=-2;
