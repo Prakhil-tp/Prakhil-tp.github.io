@@ -165,6 +165,7 @@ $(function(){
 });
 
 $(document).ready(function(){
+    $('body').addClass('loaded');
     //transition- fade out all first
     //aboutme
     $('#aboutme-text').transition('fade');
