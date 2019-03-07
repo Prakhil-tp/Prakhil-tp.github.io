@@ -71,68 +71,93 @@ $(function(){
            
             count=-3;
         }
-        //aboutme mobile screen - transition
+
+        // aboutme mobile screen - transition
         if ($(this).scrollTop() > ($('#aboutme-mob-para').offset().top+($('#aboutme-mob-para').outerHeight()/2)-wH) && count==-3){
             $('#aboutme-mob-img').transition('fade','2s');
             $('#aboutme-mob-para').transition('fade up','2s');
            
             count=-2;
         }
-        //here's what i've done text - transition
+        // here's what i've done text - transition
         if ($(this).scrollTop() > ($('#done-text').offset().top+$('#done-text').outerHeight()-wH) && count==-2){
             $('#done-text').transition('fade up','1s');
             count=0;
         }
 
-        //edufy large screen - transition
-        if ($(this).scrollTop() > ($('#edufy-large-para').offset().top+($('#edufy-large-para').outerHeight()/2)-wH) && count==0){
-            $('#edufy-large-img').transition('fade right','1s');
-            $('#edufy-large-para').transition('fade up','2s');
-           
+        // vonnue large screen - transition
+        if ($(this).scrollTop() > ($('#vonnue-large-para').offset().top+($('#vonnue-large-para').outerHeight()/2)-wH) && count==0) {
+            $('#vonnue-large-img').transition('fade right','1s');
+            $('#vonnue-large-para').transition('fade up','2s');
             count=1;
         }
-        //edufy mobile screen - transition
-        if ($(this).scrollTop() > ($('#edufy-mob-img').offset().top+($('#edufy-mob-img').outerHeight()/2)-wH) && count==1){
-            $('#edufy-mob-img').transition('fade up','1s');
-            $('#edufy-mob-para').transition('fade up','2s');
-           
+        // vonnue mobile screen - transition
+        if ($(this).scrollTop() > ($('#vonnue-mob-img').offset().top+($('#vonnue-mob-img').outerHeight()/2)-wH) && count==1) {
+            $('#vonnue-mob-img').transition('fade up','1s');
+            $('#vonnue-mob-para').transition('fade up','2s');
             count=2;
         }
-        //calmove large screen -transition
-        if ($(this).scrollTop() > ($('#calmove-large-para').offset().top+($('#calmove-large-para').outerHeight()/2)-wH) && count==2){
-            $('#calmove-large-img').transition('fade left','1s');
-            $('#calmove-large-para').transition('fade up','2s'); 
+
+        // aicte large screen - transition
+        if ($(this).scrollTop() > ($('#aicte-large-para').offset().top+($('#aicte-large-para').outerHeight()/2)-wH) && count==2) {
+            $('#aicte-large-img').transition('fade right','1s');
+            $('#aicte-large-para').transition('fade up','2s');
             count=3;
         }
-        //calmove mobile screen -transition
-        if ($(this).scrollTop() > ($('#calmove-mob-img').offset().top+($('#calmove-mob-img').outerHeight()/2)-wH) && count==3){
-            $('#calmove-mob-img').transition('fade up','1s');
-            $('#calmove-mob-para').transition('fade up','2s'); 
+        // aicte mobile screen - transition
+        if ($(this).scrollTop() > ($('#aicte-mob-img').offset().top+($('#aicte-mob-img').outerHeight()/2)-wH) && count==3) {
+            $('#aicte-mob-img').transition('fade up','1s');
+            $('#aicte-mob-para').transition('fade up','2s');
             count=4;
         }
-        //sih large screen -transition
-        if ($(this).scrollTop() > ($('#sih-large-para').offset().top+($('#sih-large-para').outerHeight()/2)-wH) && count==4){
-            $('#sih-large-img').transition('fade left','1s');
-            $('#sih-large-para').transition('fade up','2s'); 
+
+        // rj large screen - transition
+        if ($(this).scrollTop() > ($('#rj-large-para').offset().top+($('#rj-large-para').outerHeight()/2)-wH) && count==4){
+            $('#rj-large-img').transition('fade right','1s');
+            $('#rj-large-para').transition('fade up','2s'); 
             count=5;
         }
-        //sih mobile screen -transition
-        if ($(this).scrollTop() > ($('#sih-mob-img').offset().top+($('#sih-mob-img').outerHeight()/2)-wH) && count==5){
-            $('#sih-mob-img').transition('fade up','1s');
-            $('#sih-mob-para').transition('fade up','2s'); 
+        // rj mobile screen - transition
+        if ($(this).scrollTop() > ($('#rj-mob-img').offset().top+($('#rj-mob-img').outerHeight()/2)-wH) && count==5){
+            $('#rj-mob-img').transition('fade up','1s');
+            $('#rj-mob-para').transition('fade up','2s');
             count=6;
         }
-        //techathlon large screen -transition
-        if ($(this).scrollTop() > ($('#techathlon-large-para').offset().top+($('#techathlon-large-para').outerHeight()/2)-wH) && count==6){
-            $('#techathlon-large-img').transition('fade left','1s');
-            $('#techathlon-large-para').transition('fade up','2s'); 
+        // calmove large screen -transition
+        if ($(this).scrollTop() > ($('#calmove-large-para').offset().top+($('#calmove-large-para').outerHeight()/2)-wH) && count==6){
+            $('#calmove-large-img').transition('fade left','1s');
+            $('#calmove-large-para').transition('fade up','2s'); 
             count=7;
         }
-        //techathlon mobile screen -transition
-        if ($(this).scrollTop() > ($('#techathlon-mob-img').offset().top+($('#techathlon-mob-img').outerHeight()/2)-wH) && count==7){
+        // calmove mobile screen -transition
+        if ($(this).scrollTop() > ($('#calmove-mob-img').offset().top+($('#calmove-mob-img').outerHeight()/2)-wH) && count==7){
+            $('#calmove-mob-img').transition('fade up','1s');
+            $('#calmove-mob-para').transition('fade up','2s'); 
+            count=8;
+        }
+        // sih large screen -transition
+        if ($(this).scrollTop() > ($('#sih-large-para').offset().top+($('#sih-large-para').outerHeight()/2)-wH) && count==8){
+            $('#sih-large-img').transition('fade left','1s');
+            $('#sih-large-para').transition('fade up','2s'); 
+            count=9;
+        }
+        // sih mobile screen -transition
+        if ($(this).scrollTop() > ($('#sih-mob-img').offset().top+($('#sih-mob-img').outerHeight()/2)-wH) && count==9){
+            $('#sih-mob-img').transition('fade up','1s');
+            $('#sih-mob-para').transition('fade up','2s'); 
+            count=10;
+        }
+        // techathlon large screen -transition
+        if ($(this).scrollTop() > ($('#techathlon-large-para').offset().top+($('#techathlon-large-para').outerHeight()/2)-wH) && count==10){
+            $('#techathlon-large-img').transition('fade left','1s');
+            $('#techathlon-large-para').transition('fade up','2s'); 
+            count=11;
+        }
+        // techathlon mobile screen -transition
+        if ($(this).scrollTop() > ($('#techathlon-mob-img').offset().top+($('#techathlon-mob-img').outerHeight()/2)-wH) && count==12){
             $('#techathlon-mob-img').transition('fade up','1s');
             $('#techathlon-mob-para').transition('fade up','2s'); 
-            count=8;
+            count=13;
         }
 
      });
@@ -149,11 +174,21 @@ $(document).ready(function(){
     $('#aboutme-mob-para').transition('fade');
     //done
     $('#done-text').transition('fade');
-    //edufy
-    $('#edufy-large-para').transition('fade');
-    $('#edufy-large-img').transition('fade');
-    $('#edufy-mob-img').transition('fade');
-    $('#edufy-mob-para').transition('fade');
+    //vonnue
+    $('#vonnue-large-para').transition('fade');
+    $('#vonnue-large-img').transition('fade');
+    $('#vonnue-mob-img').transition('fade');
+    $('#vonnue-mob-para').transition('fade');
+    //aicte
+    $('#aicte-large-para').transition('fade');
+    $('#aicte-large-img').transition('fade');
+    $('#aicte-mob-img').transition('fade');
+    $('#aicte-mob-para').transition('fade');
+    //rj
+    $('#rj-large-para').transition('fade');
+    $('#rj-large-img').transition('fade');
+    $('#rj-mob-img').transition('fade');
+    $('#rj-mob-para').transition('fade');
     //calmove
     $('#calmove-large-para').transition('fade');
     $('#calmove-large-img').transition('fade');

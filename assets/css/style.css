@@ -54,9 +54,8 @@ p{
     
 }
 .blueb{
-    background: rgba(52,152,219 ,0.9);
+    background: rgba(42,42,42,0.7);
     text-align: center;
-    
 }
 .text{
      margin-top: 40px !important;
@@ -138,7 +137,8 @@ p{
     font-weight:500;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-    color:  rgba(56, 137, 191, 0.90);
+    /* color:  rgba(56, 137, 191, 0.90); */
+    color:rgba(42,42,42,0.7);
     margin-bottom: 5px;
 }
 .line {
