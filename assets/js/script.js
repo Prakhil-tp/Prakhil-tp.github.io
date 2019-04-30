@@ -49,12 +49,12 @@ $(function(){
             hH = $('#aboutme-text').outerHeight(),
             wH = $(window).height(),
             wS = $(this).scrollTop();
-        if (wS > (hT+hH-wH) && count==-5){
+        if (wS > (hT+hH-wH) && count==-5) {
             $('#aboutme-text').transition('fade up','1s');
             count=-4;
         }
         //aboutme large screen - transition
-        if ($(this).scrollTop() > ($('#aboutme-large-para').offset().top+($('#aboutme-large-para').outerHeight()/2)-wH) && count==-4){
+        if ($(this).scrollTop() > ($('#aboutme-large-para').offset().top+($('#aboutme-large-para').outerHeight()/2)-wH) && count==-4) {
             $('#aboutme-large-img').transition('fade right','1s');
             $('#aboutme-large-para').transition('fade up','2s');
             $('.aboutme-btn').transition('fade');
@@ -67,8 +67,6 @@ $(function(){
                 }, 1000);
 
               }, 8000);
-            
-           
             count=-3;
         }
 
@@ -164,9 +162,12 @@ $(function(){
 
 });
 
-$(document).ready(function(){
-    $('body').addClass('loaded');
+window.onload = function () {
     //transition- fade out all first
+    $('body').addClass('loaded');
+}
+
+$(document).ready(function() {
     //aboutme
     $('#aboutme-text').transition('fade');
     $('#aboutme-large-para').transition('fade');
@@ -204,9 +205,7 @@ $(document).ready(function(){
     $('#techathlon-large-para').transition('fade');
     $('#techathlon-large-img').transition('fade');
     $('#techathlon-mob-img').transition('fade');
-    $('#techathlon-mob-para').transition('fade');
-   
-   
+    $('#techathlon-mob-para').transition('fade'); 
 })
 
  
